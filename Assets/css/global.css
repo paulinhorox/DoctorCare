@@ -1,0 +1,115 @@
+:root {
+    font-size: 62.5%;
+    --hue: 190;
+    --primary-color: hsl(var(--hue), 100%, 26%);
+    --headline: hsl(210, 11%, 15%);
+    --paragraph: hsl(210, 9%, 31%);
+    --brand-beige: hsl(39, 100%, 97%);
+    --brand-light: hsl(calc(var(--hue) - 22), 23%, 89%);
+    --brand-light-2: hsl(calc(var(--hue) + 10), 14%, 97%);
+    --brand-dark: hsl(var(--hue), 100%, 14%);
+    --bg-light: hsl(180, 15%, 97%);
+    --nav-height: 7.2rem;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+ul {
+    list-style: none;
+}
+
+section {
+    padding-block: 10rem;
+}
+
+section header h4 {
+    font-size: 1.4rem;
+    color: var(--primary-color);
+    margin-bottom: 1.6rem;
+    line-height: 150%;
+    letter-spacing: 0.08rem;
+    text-transform: uppercase;
+}
+
+section header h2 {
+    font-size: 3.4rem;
+    line-height: 3.9rem;
+    color: var(--headline);
+}
+
+section header h1 {
+    font-size: 3.4rem;
+    color: var(--headline);
+    line-height: 130%;
+    margin-bottom: 2.4rem;
+}
+
+section .content p {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 150%;
+    color: var(--paragraph);
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.6rem;
+    text-align: center;
+    overflow: overlay;
+    background: var(--bg-light);
+}
+
+.wrapper {
+    width: min(50rem, 100%);
+    margin-inline: auto;
+    padding-inline: 2.4rem;
+}
+
+.button {
+    background: var(--primary-color);
+    border: none;
+    border-radius: 4rem;
+    margin-bottom: 6rem;
+    padding: 1.6rem 3.2rem;
+    width: fit-content;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.6rem;
+    transition: background .2s;
+}
+
+.button:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+    filter: brightness(1.1);
+}
