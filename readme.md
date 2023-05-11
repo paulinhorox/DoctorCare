@@ -19,12 +19,12 @@
 
 <h3 align="center">Visualização Desktop</h3>
 <p align="center">
-<img src="assets/img/front-project.png">
+<img src="Assets/img/front-project.png">
 </p>
 
 <h3 align="center">Visualização Mobile</h3>
 <p align="center">
-<img src="assets/img/front-project-2.png">
+<img src="Assets/img/front-project-2.png">
 </p>
 
 <br>
