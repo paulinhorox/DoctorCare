@@ -29,3 +29,5 @@
 
 <br>
 <p>Link funcional do projeto: <a href="https://paulinhorox.github.io/DoctorCare/">Clique aqui</a></p>
+
+<p font-size="10">Projeto realizado pela Rocketseat</p>
